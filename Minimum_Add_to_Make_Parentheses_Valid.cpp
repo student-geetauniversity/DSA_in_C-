@@ -2,7 +2,7 @@
 using namespace std;
 
 int minAddToMakeValid(string s) {
-    stack<char> S;
+    stack<char> S; 
     int c = 0;
     for (char i : s) {
         if (i == '(')
